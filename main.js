@@ -25,21 +25,36 @@
 // formatArray(arr1)
 // console.log(arr1);
 
-const arr1 = ['ahmad', 'yazeed', 'adam', 'ibrahim']
+// const arr1 = ['ahmad', 'yazeed', 'adam', 'ibrahim']
 
-const CaptilaizeNames = function (sen) {
+// const CaptilaizeNames = function (sen) {
 
   
 
-    for (let i = 0; i < sen.length; i++) {   
-        sen[i] = sen[i].split('')
-        sen[i][0]= sen[i][0].toUpperCase()
-        sen[i] = sen[i].join('')
+//     for (let i = 0; i < sen.length; i++) {   
+//         sen[i] = sen[i].split('')
+//         sen[i][0]= sen[i][0].toUpperCase()
+//         sen[i] = sen[i].join('')
         
-    }
+//     }
 
 
-}
+// }
 
-CaptilaizeNames(arr1)
-console.log(arr1);
+// CaptilaizeNames(arr1)
+// // console.log(arr1);
+
+// const arr1 = ['ahmad','yazeed','ibraheem','bahaa','haneen']
+
+// console.log(arr1);
+// arr1.push('Sammer')
+// arr1.splice(3,1,'suad')
+// console.log(arr1);
+// const newArr = arr1.slice(2,arr1.length)
+// console.log(newArr);
+
+const user = {firstName : 'Ahmad', lastName :'Kwasmi', age : 19}
+user.monileNo = '08789989'
+const newUser = user // this just showes that ibjects are refrenced data types
+newUser.firstName = "yazeed"
+console.log(user);
