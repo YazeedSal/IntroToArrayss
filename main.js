@@ -29,13 +29,13 @@
 
 // const CaptilaizeNames = function (sen) {
 
-  
+
 
 //     for (let i = 0; i < sen.length; i++) {   
 //         sen[i] = sen[i].split('')
 //         sen[i][0]= sen[i][0].toUpperCase()
 //         sen[i] = sen[i].join('')
-        
+
 //     }
 
 
@@ -53,7 +53,18 @@
 // const newArr = arr1.slice(2,arr1.length)
 // console.log(newArr);
 
-const user = {firstName : 'Ahmad', lastName :'Kwasmi', age : 19}
+const user = {
+    firstName: 'Ahmad',
+    lastName: 'Kwasmi',
+    age: 19,
+    isLoggedIn: false,
+    signIn: function () {
+        this.isLoggedIn = true
+    },
+    signOut: function () {
+        this.isLoggedIn = false
+    },
+}
 user.monileNo = '08789989'
 const newUser = user // this just showes that ibjects are refrenced data types
 newUser.firstName = "yazeed"
